@@ -32,6 +32,7 @@ export default function App() {
   };
 
   const dogs = [
+    { label: 'Please Select Dog', rate: 0},
     { label: 'Finn - $15', rate: 15 },
     { label: 'Bluey - $18', rate: 18 },
     { label: 'Bella - $15', rate: 15 },
@@ -40,6 +41,7 @@ export default function App() {
   ];
 
   const services = [
+    { label: 'Please Select Service', rate: 0},
     { label: 'Grooming - $20', rate: 20 },
     { label: 'Walking - $10', rate: 10 },
     { label: 'Training - $30', rate: 30 },
@@ -137,12 +139,6 @@ const styles = StyleSheet.create({
   pickerSmall: {
     flex: 1,
     height: 50,
-  },
-  logo: {
-    width: 150,
-    height: 150,
-    marginBottom: 20,
-    resizeMode: 'contain',
   },
   buttonContainer: {
     marginVertical: 20,
